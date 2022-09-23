@@ -1,0 +1,5 @@
+<input  #username type="text" placeholder="enter user name" name="username" (keyup)="getUserName(username.value)"/>
+
+<button (click)="getUserName(username.value)">Click Me</button>
+
+<p> Input Value is: {{displayValue}}</p>
