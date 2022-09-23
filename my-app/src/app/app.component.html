@@ -1,0 +1,16 @@
+<button (click)="getData('Hello Data')">Click Me</button>
+<br/><br/>
+<input type="text" #keyupEvent placeholder="Keyup input" (keyup)="getData(keyupEvent.value)"/>
+
+<br/><br/>
+<input type="text" #keydownEvent placeholder="Keydown input" (keydown)="getData(keydownEvent.value)"/>
+
+<br/><br/>
+<input type="text" #blurEvent placeholder="foucs out input" (blur)="getData(blurEvent.value)"/>
+
+<br/><br/>
+<input type="text" #inputEvent placeholder="input event" (input)="getData(inputEvent.value)"/>
+
+<P (mouseover)="getData('Angular Tutoral')">Angular Tutoral</P>
+
+<P (mouseleave)="getData('Angular Tutoral')">Angular Tutoral</P>
