@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-app';
+  names = ['Hasan','Koli','Mahbub'];
+  userDetails = [
+    {name:'Hasan', district: 'Noakhali'},{name:'Koli', district: 'Rangpur'},
+    {name:'Mahbub', district: 'Dhaka'}
+  ];
 }
