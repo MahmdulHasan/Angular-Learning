@@ -1,0 +1,9 @@
+<h2 *ngIf="show; then ifBlock else elseBlock">{{title}}</h2>
+
+<ng-template #ifBlock>
+    <h2>If Block</h2>
+</ng-template>
+
+<ng-template #elseBlock>
+    <h2>Else Block</h2>
+</ng-template>
